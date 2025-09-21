@@ -1,0 +1,49 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 17,
+    "editor.renderWhitespace": "boundary",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.compactFolders": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmPasteNative": false,
+    "editor.inlineSuggest.edits.showCollapsed": true,
+    "typescript.experimental.useTsgo": true,
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "git.confirmSync": false,
+
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "prettier.language": {
+    "html": [
+        "django-html"
+    ]
+},
+"cody.suggestions.mode": "auto-edit",
+"security.workspace.trust.untrustedFiles": "open",
+"[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+
+"python.analysis.packageIndexDepths": [
+        {
+            "name": "django",
+            "depth": 4,
+            "includeAllSymbols": true
+        }
+    ],
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+}
